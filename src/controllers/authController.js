@@ -1,4 +1,4 @@
-const User = require("../model/user");
+const User = require("../model/User");
 const { encrypt } = require("../services/encryptionService");
 const { generateToken } = require("../services/tokenService");
 const { getAccessToken, getGithubUser } = require("../services/githubService");
